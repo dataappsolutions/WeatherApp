@@ -11,7 +11,7 @@
             var weather = results.query.results.channel;
 
             $('#description').text(weather.description);
-
+            console.log(weather.description);
             var wind = weather.wind;
             $('#temp').text(wind.chill);
             $('#wind').text(wind.speed);
